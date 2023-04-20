@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://gpt-cln-production.up.railway.app/', {
+    const response = await fetch('https://servergpt-a3mh.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
